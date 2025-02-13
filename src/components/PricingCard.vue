@@ -1,5 +1,5 @@
 <template>
-    <div class="border rounded-lg p-6 shadow-lg bg-white text-center">
+    <div class="border rounded-lg p-2 bg-white text-center mx-2 w-60">
       <p class="font-bold text-blue-200">{{ plan }}</p>
       <h4 class="font-bold text-black-500 mt-2">{{ price }}</h4>
       <p class="text-gray-600 mt-2">{{ description }}</p>

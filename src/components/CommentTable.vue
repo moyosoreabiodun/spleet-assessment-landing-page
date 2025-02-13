@@ -4,7 +4,7 @@
   
       <table v-if="tableData.length" class="w-full border-collapse border border-gray-300">
         <tbody>
-          <tr v-for="(row, rowIndex) in tableData" :key="rowIndex">
+          <tr v-for="(row, rowIndex) in tableData" :key="rowIndex" :class="rowIndex % 2 === 0 ? 'bg-blue-100' : 'bg-white'">
             <td v-for="(cell, cellIndex) in row" :key="cellIndex" class="border p-2 text-center">
               {{ cell }}
             </td>
