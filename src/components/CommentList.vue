@@ -2,7 +2,7 @@
   <div>
     <h2 class="text-2xl font-bold mb-3">{{ title }}</h2>
     <div v-if="loading" class="text-gray-500">Loading comments...</div>
-    <div v-else :class="`grid gap-4 ${columns === 4 ? 'grid-cols-4' : 'grid-cols-2'}`">
+    <div v-else :class="`grid gap-x-4 ${columns === 4 ? 'grid-cols-4' : 'grid-cols-2'}`">
       <div v-for="comment in comments" :key="comment.id" class="">
         <h3 v-if="fields.includes('name')" class="font-semibold">{{ comment.name }}</h3>
         <p v-if="fields.includes('body')">

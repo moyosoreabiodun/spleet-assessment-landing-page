@@ -1,17 +1,18 @@
 <template>
 
-<header class="flex justify-between items-center container mx-auto mt-4"> 
+<div class="max-w-screen-xl overflow-hidden">
+  <header class="flex items-center justify-between container mt-4 text-sm"> 
   <div class="flex items-center space-x-2">
     <img src="/public/Logomark.png" alt="Logo Image" class="h-7 w-7">
     <span class="font-bold text-[#181D27] font-body" >Capsule</span>
   </div>
-  <nav class="space-x-4 text-[#616C74] font-body">
+  <nav class="flex space-x-4 text-[#616C74] font-body">
     <a href="#about">About Us</a>
     <a href="#pricing">Pricing</a>
     <a href="#product">Product</a>
     <a href="#support">Support</a>
   </nav>
-  <button class=" px-4 py-1 text-[#1570EF] border-2 border-[#1570EF] rounded-sm font-body">Get Capsule</button>
+  <button class="px-4 py-2 text-[#1570EF] text-sm border-2 border-[#1570EF] rounded-sm font-body">Get Capsule</button>
 </header>
 
 <section class="flex flex-row mx-auto mt-10 p-5">
@@ -43,7 +44,7 @@
   </div>
 </section>
 
-<section class="mt-16 mx-auto">
+<section class="mt-16 mx-auto w-full overflow-hidden">
   <h1 class="text-center mb-8 font-bold font-heading text-2xl">Choose a plan that works for you</h1>
   <div class="font-body">
       <div class="flex flex-row justify-between mx-auto px-2">
@@ -79,7 +80,7 @@
   <button class="bg-white text-blue-600 px-12 py-2 mt-3">Join Now</button>
 </section>
 
-<footer class="w-screen bg-[#FEF8E7] mt-12 px-12 py-8 font-body">
+<footer class="w-full bg-[#FEF8E7] mt-12 px-4 py-8 font-body">
   <div class="flex flex-row justify-between">
     <div>
       <div class="flex items-center space-x-2 mb-3">
@@ -121,6 +122,7 @@
    </div>
   </div>
 </footer>
+</div>
 
 
 </template>
