@@ -32,7 +32,7 @@
   
       // Extract the first 4 words from each comment body
       const truncatedComments = allComments
-        .map(comment => comment.body.split(' ').slice(0, 4).join(' ')); // ✅ Always gets 4 words
+        .map(comment => comment.body.split(' ').slice(0, 4).join(' ')); // Always gets 4 words
     
       // Shuffle and select 12
       const shuffled = truncatedComments.sort(() => Math.random() - 0.5).slice(0, 12);
