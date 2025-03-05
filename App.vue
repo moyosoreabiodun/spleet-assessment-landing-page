@@ -6,7 +6,7 @@
     <img src="/public/Logomark.png" alt="Logo Image" class="h-7 w-7">
     <span class="font-bold text-[#181D27] font-body" >Capsule</span>
   </div>
-  <nav class="flex space-x-4 text-[#616C74] font-body">
+  <nav class="flex space-x-4 text-[#616C74] text-xs font-body">
     <a href="#about">About Us</a>
     <a href="#pricing">Pricing</a>
     <a href="#product">Product</a>
@@ -87,7 +87,7 @@
       <img src="/public/Logomark.png" alt="Logo Image" class="h-7 w-7">
       <span class="font-bold text-[#181D27] font-body" >Capsule</span>
     </div>
-      <div class="text-sm">
+      <div class="text-xs">
         <p>hello@capsule.africa</p>
         <p>+234 1 343 8692</p>
       </div>
@@ -98,7 +98,7 @@
         <img src="/public/linkedin.png" alt="LinedIn Icon" class="h-5 w-5">
       </div>
     </div>
-    <div class="text-left text-sm">
+    <div class="text-left text-xs">
       <h4 class="font-bold mb-3">Company</h4>
       <p> Help & Support</p>
       <p>About Us</p>
@@ -106,17 +106,17 @@
       <p>Media</p>
       <p>FAQs</p>
     </div>
-    <div class="text-right text-sm">
+    <div class="text-right text-xs">
       <h4 class="font-bold mb-3">Address</h4>
       <p>The London Mall, 3 Standard Way,<br>Phase I, Abuja</p>
     </div>
   </div>
   <div class="flex flex-row justify-between mt-4">
-    <div class="text-sm">
+    <div class="text-xs">
       <span class="mr-4">© 2025 Capsule Africa</span>
       <span>All rights reserved</span>
     </div>
-   <div class="text-sm">
+   <div class="text-xs">
     <span class="mr-4">Terms & Agreement</span>
     <span>Privacy Policy</span>
    </div>
